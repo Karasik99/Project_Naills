@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 3rem;
+  height: inherit;
+}
+
+.img330425 {
+  width: 330px;
+  height: 425px;
+  background-image: url("../photo/headerimg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 60px #a82cb5;
+  border-radius: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  padding: 0 0 4rem 0;
+  background-color: #121615;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1rem;
+  border-radius: 1.5rem;
+  margin-bottom: 5rem;
+  box-shadow: 0px 20px 30px #a82cb5;
+}
+.header__logo {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f6f6f6;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+.header__mobmenu {
+  padding: 1rem 2.5rem;
+  border: none;
+  background: rgb(86, 30, 128);
+  background: linear-gradient(90deg, #561e80 14%, #ce15e2 100%);
+  border-radius: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.5s;
+  letter-spacing: 0.2rem;
+}
+.header__mobmenu:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+  letter-spacing: 0.3rem;
+}
+.header__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  gap: 1rem;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  gap: 1rem;
+}
+.header__title, .header__subtitle {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #f6f6f6;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+.header__subtitle {
+  color: rgb(117, 54, 165);
+  text-align: right;
+}
+.header__text {
+  color: #f6f6f6;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.header__mobcolor {
+  background: linear-gradient(90deg, #ce15e2 14%, #561e80 100%);
+}/*# sourceMappingURL=style.css.map */
