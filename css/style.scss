@@ -50,7 +50,7 @@ a{
 .header{
     width: 100%;
     height: auto;
-    padding: 0 0 4rem 0;
+    padding: 0 0 15rem 0;
     background-color: #121615;
 
     &__nav{
@@ -140,7 +140,103 @@ a{
 
 }
 
+.about{
+    padding-top: 4rem;
+    height: 100vh;
+    background-color: #121615;
 
+
+    &__inner{
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 7rem;
+        position: relative;
+    }
+
+    &__img{
+        width: auto;
+        height: 600px;
+        background-size: contain;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 60px #a82cb5;
+    }
+    &__img-container{
+        border: 2px dashed #ce15e2;
+        border-radius: 50%;
+        padding: 15rem;
+        box-shadow: 0px 0px 60px #a82cb5;
+    }
+
+    &__content{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 27%;
+    }
+
+    &__title{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f6f6f6;
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+
+    &__title span{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #a82cb5;
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border: 2px dashed #ce15e2;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 60px #a82cb5;
+    }
+
+    &__card-title{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f6f6f6;
+        font-size: 1rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+
+    &__card-text{
+        color: #f6f6f6;
+        font-size: .8rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+
+    &__spot{
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        top: 50%;
+        position: sticky;
+        background-image: url('../photo/blur.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 
 
@@ -178,6 +274,9 @@ a{
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //HEADER MEDIA//
 @media (max-width:1000px) {
+    .header{
+        padding: 0 0 5rem 0;
+    }
     .header__mobmenu{
         padding: 1rem 1.5rem;
     }
